@@ -15,6 +15,7 @@ It detects the head of a person and continuously tracks their position. A vertic
 - The application runs at approximately **25–28 FPS**.
 
 ## How to Run
-1. Use the following command to execute the application:
-   ```bash
-   ./app_line_crossing_people_counting <model_path> <label_list_path>
+To execute the application, use the following command:
+
+```bash
+./app_line_crossing_people_counting <model_path> <label_list_path>
