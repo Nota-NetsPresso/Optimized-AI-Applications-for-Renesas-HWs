@@ -1,0 +1,15 @@
+Output_node_name: post_710
+         Address: 0x812d8e80
+         Channel: 6
+         Width  : 40
+         Height : 40
+Output_node_name: post_740
+         Address: 0x812e2480
+         Channel: 6
+         Width  : 20
+         Height : 20
+Output_node_name: post_770
+         Address: 0x812e4a00
+         Channel: 6
+         Width  : 10
+         Height : 10

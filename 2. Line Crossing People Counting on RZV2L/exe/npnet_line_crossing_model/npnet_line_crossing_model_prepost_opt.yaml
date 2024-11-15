@@ -1,0 +1,224 @@
+input_to_pre:
+- name: camera_data
+  shape:
+  - 160
+  - 160
+  - 12
+  order: HWC
+  format: RGB
+  type: uint8
+input_to_body:
+- name: '461'
+  shape:
+  - 160
+  - 160
+  - 12
+  order: HWC
+  format: RGB
+  type: fp16
+output_from_body:
+- name: '710'
+  shape:
+  - 40
+  - 40
+  - 6
+  order: HWC
+  type: fp16
+- name: '740'
+  shape:
+  - 20
+  - 20
+  - 6
+  order: HWC
+  type: fp16
+- name: '770'
+  shape:
+  - 10
+  - 10
+  - 6
+  order: HWC
+  type: fp16
+output_from_post:
+- name: post_710
+  shape:
+  - 40
+  - 40
+  - 6
+  order: HWC
+  type: fp32
+- name: post_740
+  shape:
+  - 20
+  - 20
+  - 6
+  order: HWC
+  type: fp32
+- name: post_770
+  shape:
+  - 10
+  - 10
+  - 6
+  order: HWC
+  type: fp32
+preprocess:
+- src:
+  - camera_data
+  shape_in:
+  - - 160
+    - 160
+    - 12
+  dtype_in:
+  - uint8
+  dorder_in:
+  - HWC
+  dest:
+  - '461'
+  shape_out:
+  - - 160
+    - 160
+    - 12
+  dtype_out:
+  - fp16
+  dorder_out:
+  - HWC
+  operations:
+  - op: cast_any_to_fp16
+    shape_in:
+    - - 160
+      - 160
+      - 12
+    dtype_in:
+    - uint8
+    dorder_in:
+    - HWC
+    shape_out:
+    - - 160
+      - 160
+      - 12
+    dtype_out:
+    - fp16
+    dorder_out:
+    - HWC
+    param:
+      DIN_FORMAT: 0
+postprocess:
+- src:
+  - '710'
+  shape_in:
+  - - 40
+    - 40
+    - 6
+  dtype_in:
+  - fp16
+  dorder_in:
+  - HWC
+  dest:
+  - post_710
+  shape_out:
+  - - 40
+    - 40
+    - 6
+  dtype_out:
+  - fp32
+  dorder_out:
+  - HWC
+  operations:
+  - op: cast_fp16_fp32
+    shape_in:
+    - - 40
+      - 40
+      - 6
+    dtype_in:
+    - fp16
+    dorder_in:
+    - HWC
+    shape_out:
+    - - 40
+      - 40
+      - 6
+    dtype_out:
+    - fp32
+    dorder_out:
+    - HWC
+    param:
+      CAST_MODE: 0
+- src:
+  - '740'
+  shape_in:
+  - - 20
+    - 20
+    - 6
+  dtype_in:
+  - fp16
+  dorder_in:
+  - HWC
+  dest:
+  - post_740
+  shape_out:
+  - - 20
+    - 20
+    - 6
+  dtype_out:
+  - fp32
+  dorder_out:
+  - HWC
+  operations:
+  - op: cast_fp16_fp32
+    shape_in:
+    - - 20
+      - 20
+      - 6
+    dtype_in:
+    - fp16
+    dorder_in:
+    - HWC
+    shape_out:
+    - - 20
+      - 20
+      - 6
+    dtype_out:
+    - fp32
+    dorder_out:
+    - HWC
+    param:
+      CAST_MODE: 0
+- src:
+  - '770'
+  shape_in:
+  - - 10
+    - 10
+    - 6
+  dtype_in:
+  - fp16
+  dorder_in:
+  - HWC
+  dest:
+  - post_770
+  shape_out:
+  - - 10
+    - 10
+    - 6
+  dtype_out:
+  - fp32
+  dorder_out:
+  - HWC
+  operations:
+  - op: cast_fp16_fp32
+    shape_in:
+    - - 10
+      - 10
+      - 6
+    dtype_in:
+    - fp16
+    dorder_in:
+    - HWC
+    shape_out:
+    - - 10
+      - 10
+      - 6
+    dtype_out:
+    - fp32
+    dorder_out:
+    - HWC
+    param:
+      CAST_MODE: 0
