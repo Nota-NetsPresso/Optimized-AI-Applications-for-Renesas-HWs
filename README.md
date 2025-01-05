@@ -9,9 +9,11 @@ Our vision, ‘AI Everywhere,’ drives us to enable AI solutions that can opera
 This collaboration between Nota AI and Renesas aims to bring optimized AI applications to the RZ/V hardware platform, allowing for efficient and scalable deployment of AI models across various edge devices.   
 By integrating our NetsPresso AI optimization technology with Renesas’s RZ/V platform, we address critical demands for AI-driven solutions in sectors such as automotive, security, and IoT.   
 The RZ/V is designed for high-performance, low-power applications, making it ideal for real-time AI on-device solutions in resource-constrained environments.   
+Check more information here: [Renesas RZ/V AI Community - Nota AI](https://www.renesas.com/en/products/microcontrollers-microprocessors/rz-mpus/rz-partner-solutions/nota-netspresso?srsltid=AfmBOoofyLYHqkx7_IyebecHwJlOuKxjz_9ovMwhka9NqJvBcUazMhGa#related-boards-kits)
+
 
 ## Applications   
 Each of the following subsections will outline the specific application’s purpose, metrics, and importance, as well as the implementation process on the Renesas platform.   
-- [People Detection on RZV2L](https://github.com/Nota-NetsPresso/Optimized-AI-Applications-for-Renesas-HWs/tree/main/1.%20People%20Detection%20on%20RZV2L)   
-- [Line Crossing People Counting on RZV2L](https://github.com/Nota-NetsPresso/Optimized-AI-Applications-for-Renesas-HWs/tree/main/2.%20Line%20Crossing%20People%20Counting%20on%20RZV2L)   
-- [Driver Monitoring System on RZV2L](https://github.com/Nota-NetsPresso/Optimized-AI-Applications-for-Renesas-HWs/tree/main/3.%20Driver%20Monitoring%20System%20on%20RZV2L)   
+- [People Detection on RZ/V2L](https://github.com/Nota-NetsPresso/Optimized-AI-Applications-for-Renesas-HWs/tree/main/1.%20People%20Detection%20on%20RZV2L)   
+- [Line Crossing People Counting on RZ/V2L](https://github.com/Nota-NetsPresso/Optimized-AI-Applications-for-Renesas-HWs/tree/main/2.%20Line%20Crossing%20People%20Counting%20on%20RZV2L)   
+- [Driver Monitoring System on RZ/V2L](https://github.com/Nota-NetsPresso/Optimized-AI-Applications-for-Renesas-HWs/tree/main/3.%20Driver%20Monitoring%20System%20on%20RZV2L)   
