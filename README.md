@@ -17,3 +17,9 @@ Each of the following subsections will outline the specific application’s purp
 - [People Detection on RZ/V2L](https://github.com/Nota-NetsPresso/Optimized-AI-Applications-for-Renesas-HWs/tree/main/1.%20People%20Detection%20on%20RZV2L)   
 - [Line Crossing People Counting on RZ/V2L](https://github.com/Nota-NetsPresso/Optimized-AI-Applications-for-Renesas-HWs/tree/main/2.%20Line%20Crossing%20People%20Counting%20on%20RZV2L)   
 - [Driver Monitoring System on RZ/V2L](https://github.com/Nota-NetsPresso/Optimized-AI-Applications-for-Renesas-HWs/tree/main/3.%20Driver%20Monitoring%20System%20on%20RZV2L)   
+
+
+## AI SDK Versions
+- People Detection on RZ/V2L: DRP-AI Support Package Version 7.30
+- Line Crossing People Counting on RZ/V2L: DRP-AI Support Package Version 7.30
+- Driver Monitoring System on RZ/V2L: DRP-AI Support Package Version 7.30
