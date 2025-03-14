@@ -11,6 +11,11 @@ It detects the head of a person and continuously tracks their position. A vertic
    - If a person crosses from right to left, the **left count** increases.  
 - **Dynamic Bounding Boxes**: Automatically adjusts bounding boxes to match the size and position of the detected individual’s head for better visualization.
 
+### Target Board and SW Versions
+- Target Board: RZ/V2L
+- AI SDK Version: AI Software Development Kit Version 1.00
+- DRP-AI Version: DRP-AI Support Package Version 7.30
+
 ## Performance
 - The application runs at approximately **25–28 FPS**.
 
