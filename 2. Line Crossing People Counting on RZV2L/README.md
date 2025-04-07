@@ -12,7 +12,7 @@ It detects the head of a person and continuously tracks their position. A vertic
 - **Dynamic Bounding Boxes**: Automatically adjusts bounding boxes to match the size and position of the detected individual’s head for better visualization.
 
 ### Target Board and SW Versions
-- Target Board: RZ/V2L
+- Target Board: RZ/V2L Evaluation Board Kit
 - AI SDK Version: AI Software Development Kit Version 1.00
 - DRP-AI Version: DRP-AI Support Package Version 7.30
 
