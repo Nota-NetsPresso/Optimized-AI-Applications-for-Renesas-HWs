@@ -8,7 +8,7 @@ The **People Detection** application is designed to detect people and draw bound
 - **Dynamic Bounding Boxes**: Automatically adjusts bounding box dimensions to match the detected person's size, enhancing visualization and usability.
 
 ### Target Board and SW Versions
-- Target Board: RZ/V2L
+- Target Board: RZ/V2L Evaluation Board Kit
 - AI SDK Version: AI Software Development Kit Version 1.00
 - DRP-AI Version: DRP-AI Support Package Version 7.30
 
