@@ -34,3 +34,6 @@ Restore the downloaded image onto an SD card.
 - Move to the directory:
   ```bash
   cd /home/root
+  export LD_LIBRARY_PATH=/home/root/
+  ./rzv2l_application
+  
