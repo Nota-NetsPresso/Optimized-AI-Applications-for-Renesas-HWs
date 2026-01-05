@@ -1,7 +1,5 @@
 # Driver Monitoring System Demo Application
 
-# Nota DMS Demo
-
 ## Overview
 The **Nota DMS** demo runs on Renesas RZ/V2L and showcases real-time detection of driver drowsiness and distraction. The Nota DMS solution has been partially ported and optimized for the RZ/V2L platform. It recognizes drowsy or distracted behavior and presents the monitoring results on an intuitive dashboard.
 
